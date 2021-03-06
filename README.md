@@ -1,2 +1,2 @@
 # decipher
-Simples decipher script
+Simple decipher script using substitution

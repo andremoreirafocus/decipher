@@ -1,0 +1,22 @@
+{
+  "name": "decipher",
+  "version": "1.0.0",
+  "description": "app to decipher text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremoreirafocus/decipher.git"
+  },
+  "author": "Andre Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andremoreirafocus/decipher/issues"
+  },
+  "homepage": "https://github.com/andremoreirafocus/decipher#readme",
+  "dependencies": {
+    "convert-hex": "^0.1.0"
+  }
+}
