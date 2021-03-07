@@ -21,10 +21,9 @@ console.log('Texto a ser cifrado em hexadecimal:')
 console.log(ciphertextHexStr);
 
 var cipherTextHex = ciphertextHexStr.replace(/ /g,'').replace(/0x/g,'');
-var valuesStr = conv.hexToBytes(cipherTextHex);
-// console.dir(valuesStr);
-
-var cyphertext = valuesStr.reduce((acc, value) => acc + String.fromCharCode(parseInt(value)), '');
+var asciiCodes = conv.hexToBytes(cipherTextHex);
+console.dir(asciiCodes);
+var cyphertext = asciiCodes.reduce((acc, value) => acc + String.fromCharCode(value),'');
 console.log('\nTexto cifrado:')
 console.log(cyphertext);
 
